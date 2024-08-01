@@ -8,4 +8,6 @@
     <string name="custom_razorpay_ui">Custom Razorpay UI</string>
     <string name="razorpay_ui_with_standard_sdk">Razorpay UI with standard SDK</string>
     <string name="api_call_using_retrofit_and_mvvm">API Call using Retrofit and MVVM</string>
+    <string name="standard_sdk">Standard SDK</string>
+    <string name="ok">OK</string>
 </resources>
