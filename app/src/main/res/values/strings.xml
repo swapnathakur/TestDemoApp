@@ -10,4 +10,5 @@
     <string name="api_call_using_retrofit_and_mvvm">API Call using Retrofit and MVVM</string>
     <string name="standard_sdk">Standard SDK</string>
     <string name="ok">OK</string>
+    <string name="pay_100">Pay ₹100</string>
 </resources>

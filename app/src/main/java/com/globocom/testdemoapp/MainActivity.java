@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
                         startActivityOnTop(GoogleSignInActivity.class,true);
                         break;
                     case Constants.BTN_CUSTOM_RAZORPAY:
-                        //startActivityOnTop(GoogleSignInActivity.class,true);
+                        startActivityOnTop(CustomRazorpayActivity.class,true);
                         break;
                     case Constants.BTN_MVVM_API_CALL:
-                        startActivityOnTop(PostActivity.class,true);
+                        //startActivityOnTop(PostActivity.class,true);
                         break;
                 }
             }
