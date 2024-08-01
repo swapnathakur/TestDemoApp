@@ -56,5 +56,6 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel:2.5.1")
     implementation("androidx.lifecycle:lifecycle-livedata:2.5.1")
+    implementation("com.razorpay:checkout:1.6.12")
 
 }
