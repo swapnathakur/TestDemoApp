@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         viewModel = new ViewModelProvider(this).get(MainViewModel.class);
-        viewModel.getButtonClick().observe(this, new Observer<Integer>() {
+        viewModel.getButtonClicked().observe(this, new Observer<Integer>() {
             @Override
             public void onChanged(Integer button) {
                 switch (button) {
@@ -40,9 +40,6 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case Constants.BTN_CUSTOM_RAZORPAY:
                         //startActivityOnTop(GoogleSignInActivity.class,true);
-                        break;
-                    case Constants.BTN_STANDARD_SDK_RAZORPAY:
-                        startActivityOnTop(RazorpayActivity.class,true);
                         break;
                     case Constants.BTN_MVVM_API_CALL:
                         startActivityOnTop(PostActivity.class,true);
