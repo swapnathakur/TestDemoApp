@@ -17,7 +17,7 @@ import com.razorpay.PaymentResultListener;
 
 import org.json.JSONObject;
 
-public class CutomRazorpayActivity extends AppCompatActivity implements PaymentResultListener {
+public class CustomRazorpayActivity extends AppCompatActivity implements PaymentResultListener {
     private ActivityCutomRazorpayBinding binding;
 
     @Override
@@ -86,7 +86,7 @@ public class CutomRazorpayActivity extends AppCompatActivity implements PaymentR
      * @param message
      */
     private void showAlertBox(String message) {
-        AlertDialog dialog = new AlertDialog.Builder(CutomRazorpayActivity.this).create();
+        AlertDialog dialog = new AlertDialog.Builder(CustomRazorpayActivity.this).create();
         dialog.setMessage(message);
         dialog.setButton(DialogInterface.BUTTON_POSITIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
             @Override
