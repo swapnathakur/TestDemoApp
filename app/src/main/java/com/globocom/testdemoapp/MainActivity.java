@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivityOnTop(CustomRazorpayActivity.class,true);
                         break;
                     case Constants.BTN_MVVM_API_CALL:
-                        //startActivityOnTop(PostActivity.class,true);
+                        startActivityOnTop(PostActivity.class,true);
                         break;
                 }
             }
