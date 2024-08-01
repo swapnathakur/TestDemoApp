@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestDemoApp</string>
+    <string name="default_web_client_id">612708068453-3khqqj11crcq320d3pfs70k7u41nn04n.apps.googleusercontent.com</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome</string>
+    <string name="KEY_ID" />
+    <string name="google_sign_in">Google Sign In</string>
+    <string name="custom_razorpay_ui">Custom Razorpay UI</string>
+    <string name="razorpay_ui_with_standard_sdk">Razorpay UI with standard SDK</string>
+    <string name="api_call_using_retrofit_and_mvvm">API Call using Retrofit and MVVM</string>
+</resources>
